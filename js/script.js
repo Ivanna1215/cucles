@@ -41,3 +41,51 @@ function cOntINue() {
         console.log (num);
     }
 }
+function getSymbol () {
+    let text = "holiday";
+    let firstSymbol = text [0];
+    console.log (firstSymbol);
+    let lastSumbol = text [text.length-1];
+    console.log (lastSumbol);
+    lastSumbol = text [text.length-2];
+    console.log (lastSumbol);
+
+    for (const ivanna of text) {
+        console.log (ivanna);
+    }
+}
+
+ function cOnfirm () {
+     let result = confirm ("want to continue?")
+ }
+
+ function getTransformation () {
+let userAge = 58;
+console.log (userAge);
+console.log (typeof userAge);
+userAge = String (userAge);
+console.log (userAge);
+console.log (typeof userAge);
+
+ }
+
+ function multiplicationTable () {
+    let i = 1;
+    let msg = " ";
+    while (i<11) {
+       msg+= i + 'x 3=' + (i*3)+ '<br>';
+       i++; 
+    }
+  document.write (msg);
+ 
+}
+function getcountSymbol () {
+    let a = ' HelloIvanna!'
+    let count = 0;
+    for (let i = 0; i<a.length; i++) {
+        if (a [i]==='a') {
+            count++;
+        }
+    }
+    console.log (count);
+}
