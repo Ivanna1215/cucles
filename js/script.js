@@ -80,7 +80,7 @@ console.log (typeof userAge);
  
 }
 function getcountSymbol () {
-    let a = ' HelloIvanna!'
+    let a = ' HelloIvanna!';
     let count = 0;
     for (let i = 0; i<a.length; i++) {
         if (a [i]==='a') {
